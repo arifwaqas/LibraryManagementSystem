@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="head">
+    
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/img/dlibrary500.png" 
+            Width="500px" />
+    
+    </div><div id="main"><div id="menu">
+        <table style="width:100%">
+            <tr>
+                <td class="tblhead">
+                    welcome
+                    </td>
+            </tr>
+            <tr>
+                <td bgcolor="#d9d9d9" style="text-align: center">
+                    <asp:Label ID="lblname" runat="server" ForeColor="#000"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button11" runat="server" CssClass="btnmenu" Text="ADD PUBLICATION" 
+                        PostBackUrl="~/Publication.aspx" CausesValidation="False" 
+                        onclick="Button11_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button1" runat="server" CssClass="btnmenu" Text="ADD BOOK" 
+                        PostBackUrl="~/Addbook.aspx" CausesValidation="False" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button2" runat="server" CssClass="btnmenu" Text="BOOK REPORT" 
+                        CausesValidation="False" PostBackUrl="~/bookreport.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button3" runat="server" CssClass="btnmenu" Text="ADD BRANCH" 
+                        PostBackUrl="~/Addbranch.aspx" CausesValidation="False" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button4" runat="server" CssClass="btnmenu" Text="ADD STUDENT" 
+                        PostBackUrl="~/AddStudent.aspx" CausesValidation="False" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button5" runat="server" CssClass="btnmenu" 
+                        Text="STUDENT REPORT" CausesValidation="False" 
+                        PostBackUrl="~/Studenteport.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button6" runat="server" CssClass="btnmenu" Text="ISSUE BOOK" 
+                        CausesValidation="False" PostBackUrl="~/BookIssue.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button7" runat="server" CssClass="btnmenu" 
+                        Text="ISSUE REPORT" CausesValidation="False" 
+                        PostBackUrl="~/Issuereport.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button8" runat="server" CssClass="btnmenu" Text="RETURN BOOK" 
+                        CausesValidation="False" PostBackUrl="~/BookReturn.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button9" runat="server" CssClass="btnmenu" Text="PENALTY" 
+                        CausesValidation="False" PostBackUrl="~/Panalty.aspx" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button10" runat="server" CssClass="btnmenu" Text="LogOut" 
+                        CausesValidation="False" onclick="Button10_Click" />
+                </td>
+            </tr>
+        </table>
+        </div><div id="detail">  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder></div></div>
+     
+   
+    </form>
+</body>
+</html>

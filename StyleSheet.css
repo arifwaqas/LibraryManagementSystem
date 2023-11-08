@@ -1,0 +1,153 @@
+﻿body 
+{background:#FFF;
+    font-family:Verdana;
+    /*CCFFCC*/
+}
+
+
+#head
+{
+    width:1000px;
+    height:100px;
+    border:solid 1px white;
+   /* box-shadow:0px 0px 15px 0px green;*/
+    margin:0 auto;
+    text-align: center;
+    background:#fff;
+}
+
+#login
+{
+    height:180px;
+    width:350px;
+    border:solid 0px green;
+    margin:0 auto;
+    margin-top:0px;
+    
+    }
+    #img
+{
+    height:320px;
+    width:700px;
+    border:solid 0px green;
+    margin:0 auto;
+    margin-top:0px;
+    
+    }
+    
+    .tbl
+    {
+        width:100%;
+        border:solid 1px #ddd;
+        
+        background:#FFF;
+        }
+        
+        .tblhead
+        {
+            background:green;
+            color:#fff;
+            text-align:center;
+            font-weight:bold;
+            height:30px;
+              background:linear-gradient(#000, #7d7d7d);
+            
+            }
+            
+       .lbl
+       {
+           text-align:right;
+           color:black;
+           }
+           
+           .txt
+           {
+               border:solid 1px #9b9b9b;
+               background:#E1E1E1;
+               }
+               .txt:hover
+           {
+               
+               border:solid 1px #840000;
+               }
+               
+               .btn:hover
+               {
+                   background:green;
+                   color:#fff;
+                   font-weight:bold;
+                    border:solid 2px #000;
+                   height:30px;
+                     background:linear-gradient(#730000, #000);
+                   }
+                   .btn
+               {
+                   background:#ff6600;
+                   color:#fff;
+                   font-weight:bold;
+                   border:solid 2px black;height:30px; cursor:pointer;
+                    transition:background-color 1s ease;
+                  
+                  background:linear-gradient(#000, #757575);
+                   }
+ 
+#main
+{
+    width:1000px;
+    height:550px;
+    border:solid 1px #c8c8c8;
+   /* box-shadow:0px 0px 15px 0px green;*/
+    margin:0 auto;
+   
+      background:#fff;
+}
+
+#menu
+{
+    width:230px;
+    height:550px;
+    border:solid 0px red;
+    float:left;
+     background:#fff;
+    }
+    
+    #detail
+{
+    width:760px;
+    height:550px;
+    border:solid 0px red;
+    float:left;
+    margin-left:5px;
+    background:#fff;
+    }
+    
+     .btnmenu
+               {
+                   background:black;
+                   color:#fff;
+                   font-weight:bold;
+                   width:100%;
+                   height:40px;
+                   font-size:14px; cursor:pointer;
+                   }
+                   .btnmenu:hover
+               {
+                   background:#970000;
+                   color:#fff;
+                   font-weight:bold;
+ transition: background-color .6s ease;
+
+                   }
+                   
+        .lnk
+        {
+            color:#003982;
+            font-weight:bold;
+            }
+            .lnk:hover
+            {
+               color:#f00;
+                 font-weight:bold;
+                }
+            
+            
